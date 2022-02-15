@@ -35,7 +35,7 @@ app.get('/collection/lessons/img', (req, res, next) => {
 
 // dispaly a message for root path to show that API is working
 app.get('/', (req, res, next) => {
-    res.render('index.html')
+    res.send('welcome to backend')
 })
 
 // get the collection name
